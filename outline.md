@@ -14,7 +14,6 @@ https://tonejs.github.io
 
 
 
-Node.js v22.13.1.
 
 
 
