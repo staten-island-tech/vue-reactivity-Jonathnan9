@@ -40,8 +40,6 @@
   </div>
 </template>
 
-<script setup>
-console.log('NavBar loaded')
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
