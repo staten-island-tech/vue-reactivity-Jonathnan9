@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
-import CreateScore from './components/CreateScore.vue'
+import CreateScore from './components/ProductCart.vue'
 </script>
 
 <template>
