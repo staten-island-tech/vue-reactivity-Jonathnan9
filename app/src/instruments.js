@@ -9,8 +9,8 @@ export const instruments = {
           price: 3299.99,
         },
         {
-          name: 'Conn 88HO',
-          image: 'https://coopermusic.com/wp-content/uploads/2023/05/Conn-88HO.png',
+          name: 'Conn 88H',
+          image: 'https://media.musicarts.com/is/image/MMGS7/483598000998020-00-2000x2000.jpg',
           price: 3099.99,
         },
         {
