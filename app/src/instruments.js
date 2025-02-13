@@ -119,11 +119,6 @@ export const instruments = {
         price: 7500.0,
       },
       {
-        name: 'Conn 8D',
-        image: 'https://example.com/conn_8d.jpg',
-        price: 4200.0,
-      },
-      {
         name: 'Jupiter JHR1100',
         image:
           'https://media.sweetwater.com/m/products/image/c7f4088f7bCPkMPBBErY0w5r6qizdsYQjwwfj3tM.jpg?v=c7f4088f7bd37535',
