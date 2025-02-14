@@ -42,7 +42,7 @@ export const instruments = {
           price: 1599.99,
         },
       ],
-      bassTrombone: [
+      bass: [
         {
           name: 'Yamaha YBL-822G',
           image: 'https://m.media-amazon.com/images/I/51CgjGJ9LYL._AC_UF894,1000_QL80_.jpg',

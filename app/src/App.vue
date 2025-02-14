@@ -4,12 +4,15 @@ import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <div class="flex">
+  <div class="min-h-screen flex flex-col">
     <NavBar />
-    <RouterView />
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/about">About</RouterLink>
+
+    <div class="flex-1 p-4" data-theme="emerald">
+      <RouterView />
+    </div>
   </div>
-  <RouterLink to="/">home</RouterLink>
-  <RouterLink to="/about">About</RouterLink>
 </template>
 
 <style scoped></style>
