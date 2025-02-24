@@ -26,7 +26,7 @@
       <label for="my-drawer-3" aria-label="close sidebar"></label>
 
       <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-        <div class="min-h-screen flex flex-col pt-16">
+        <div class="min-h-screen flex flex-col pt-16 text-xl">
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/brass">Brass</RouterLink>
           <RouterLink to="/woodwind">Woodwind</RouterLink>

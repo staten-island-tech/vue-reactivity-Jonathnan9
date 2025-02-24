@@ -33,14 +33,21 @@
     <div class="drawer-side">
       <label for="my-drawer-4" aria-label="close sidebar"></label>
 
-      <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-        <li><a>e</a></li>
-        <li><a>a</a></li>
+      <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 pt-4">
+        <h1 class="text-l font-semibold text-gray-800 mb-4 mt-9">BELOW IS YOUR ITEMS!</h1>
+        <li v-for="(item, index) in cart" :key="index">
+          {{ item.name }} - ${{ item.price.toLocaleString() }}
+        </li>
       </ul>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { cart } from '../CurrentCart.js'
+setTimeout(() => {
+  console.log(JSON.parse(JSON.stringify(cart))) // Log the cart contents
+}, 10000)
+</script>
 
 <style lang="scss" scoped></style>
