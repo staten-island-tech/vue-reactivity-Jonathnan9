@@ -5,15 +5,22 @@
     <h1 class="text-2xl font-semibold mb-2">{{ instrument.name }}</h1>
     <img :src="instrument.image" :alt="instrument.name" class="w-48 h-48 object-contain mb-2" />
     <p class="text-lg text-gray-600 font-bold">${{ instrument.price.toLocaleString() }}</p>
-    <!-- toLocaleString converts number into a string! -->
-    <button class="btn">Buy Now</button>
+    <button class="btn" @click="addToCart">Buy Now</button>
   </div>
 </template>
 
 <script setup>
-defineProps({
+import { defineProps, defineEmits } from 'vue'
+
+const props = defineProps({
   instrument: Object,
 })
+
+const emit = defineEmits(['add-to-cart'])
+
+const addToCart = () => {
+  emit('add-to-cart', props.instrument)
+}
 </script>
 
 <style scoped>

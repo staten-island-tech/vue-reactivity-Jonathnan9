@@ -15,6 +15,7 @@
             v-for="(instrument, index) in category"
             :key="index"
             :instrument="instrument"
+            @add-to-cart="addToCart"
           />
         </div>
       </div>
@@ -27,6 +28,7 @@
               v-for="(instrument, index) in subcategory"
               :key="index"
               :instrument="instrument"
+              @add-to-cart="addToCart"
             />
           </div>
         </div>
@@ -36,8 +38,17 @@
 </template>
 
 <script setup>
+import { ref, provide } from 'vue'
 import { instruments } from '../instruments.js'
 import InstrumentCard from '@/components/SpecificInst.vue'
+
+const cart = ref([])
+provide('cart', cart)
+
+const addToCart = (instrument) => {
+  cart.value.push(instrument.name, instrument.price)
+  console.log(cart.value)
+}
 </script>
 
 <style scoped>
