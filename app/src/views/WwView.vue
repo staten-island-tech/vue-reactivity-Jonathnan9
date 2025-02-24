@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2 class="">Woodwind Instruments</h2>
+    <h1 class="text-4xl font-semibold text-gray-900 mb-4">Woodwind Instruments</h1>
+    <h2 class="">These dont matter anyways, click the top left and go to brass instead!</h2>
   </div>
 </template>
 

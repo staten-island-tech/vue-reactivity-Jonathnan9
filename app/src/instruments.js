@@ -1,24 +1,6 @@
 export const instruments = {
   brass: {
     trombone: {
-      'F Attachment: ': [
-        {
-          name: 'Yamaha YSL-882O',
-          image:
-            'https://usa.yamaha.com/files/YSL_882O_78a496feb757e618de951f22f32e5196.jpg?impolicy=resize&imwid=2687&imhei=683',
-          price: 3299.99,
-        },
-        {
-          name: 'Conn 88H',
-          image: 'https://media.musicarts.com/is/image/MMGS7/483598000998020-00-2000x2000.jpg',
-          price: 3099.99,
-        },
-        {
-          name: 'Bach 50AF3',
-          image: 'https://conn-selmer.cdn.picturepark.com/v/AoJ3A4PK/?width=1024&height=768',
-          price: 3799.99,
-        },
-      ],
       Regular: [
         {
           name: 'Yamaha YSL-354',
@@ -40,6 +22,24 @@ export const instruments = {
           name: 'Bach TB600',
           image: 'https://conn-selmer.cdn.picturepark.com/v/CB9xfVtk/?width=1024&height=768',
           price: 1599.99,
+        },
+      ],
+      'F Attachment: ': [
+        {
+          name: 'Yamaha YSL-882O',
+          image:
+            'https://usa.yamaha.com/files/YSL_882O_78a496feb757e618de951f22f32e5196.jpg?impolicy=resize&imwid=2687&imhei=683',
+          price: 3299.99,
+        },
+        {
+          name: 'Conn 88H',
+          image: 'https://media.musicarts.com/is/image/MMGS7/483598000998020-00-2000x2000.jpg',
+          price: 3099.99,
+        },
+        {
+          name: 'Bach 50AF3',
+          image: 'https://conn-selmer.cdn.picturepark.com/v/AoJ3A4PK/?width=1024&height=768',
+          price: 3799.99,
         },
       ],
       Bass: [

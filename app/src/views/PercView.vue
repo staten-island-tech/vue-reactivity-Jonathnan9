@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2 class="">Percussion Instruments</h2>
+    <h1 class="text-4xl font-semibold text-gray-900 mb-4">Percussion Instruments</h1>
+    <h2 class="">These dont matter anyways, click the top left and go to brass instead!</h2>
   </div>
 </template>
 
