@@ -6,7 +6,6 @@
     <img :src="instrument.image" :alt="instrument.name" class="w-48 h-48 object-contain mb-2" />
     <p class="text-lg text-gray-600 font-bold">${{ instrument.price.toLocaleString() }}</p>
     <!-- toLocaleString converts number into a string! -->
-    <button class="btn">Buy Now</button>
   </div>
 </template>
 

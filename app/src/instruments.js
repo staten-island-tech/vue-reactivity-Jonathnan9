@@ -1,7 +1,7 @@
 export const instruments = {
   brass: {
     trombone: {
-      f_attachment: [
+      'F Attachment: ': [
         {
           name: 'Yamaha YSL-882O',
           image:
@@ -19,7 +19,7 @@ export const instruments = {
           price: 3799.99,
         },
       ],
-      regular: [
+      Regular: [
         {
           name: 'Yamaha YSL-354',
           image:
@@ -42,7 +42,7 @@ export const instruments = {
           price: 1599.99,
         },
       ],
-      bass: [
+      Bass: [
         {
           name: 'Yamaha YBL-822G',
           image: 'https://m.media-amazon.com/images/I/51CgjGJ9LYL._AC_UF894,1000_QL80_.jpg',
@@ -66,7 +66,7 @@ export const instruments = {
         },
       ],
     },
-    trumpet: [
+    Trumpet: [
       {
         name: 'Yamaha YTR-2330',
         image: 'https://m.media-amazon.com/images/I/51J0LJEoGsL.jpg',
@@ -100,7 +100,7 @@ export const instruments = {
         price: 899.99,
       },
     ],
-    frenchHorn: [
+    'French Horn': [
       {
         name: 'Yamaha YHR-567',
         image:
@@ -131,7 +131,7 @@ export const instruments = {
         price: 5999.99,
       },
     ],
-    euphonium: [
+    Euphonium: [
       {
         name: 'Yamaha YEP-642',
         image:
@@ -157,7 +157,7 @@ export const instruments = {
         price: 5999.99,
       },
     ],
-    tuba: [
+    Tuba: [
       {
         name: 'Yamaha YBB-321WC',
         image:

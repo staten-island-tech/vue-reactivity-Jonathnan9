@@ -11,9 +11,24 @@ const router = createRouter({
       component: () => import('../views/SectionView.vue'),
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/brass',
+      name: 'Brass Instruments',
       component: () => import('../views/BrassView.vue'),
+    },
+    {
+      path: '/woodwind',
+      name: 'Woodwind Instruments',
+      component: () => import('../views/WwView.vue'),
+    },
+    {
+      path: '/percussion',
+      name: 'Percussion Instruments',
+      component: () => import('../views/PercView.vue'),
+    },
+    {
+      path: '/other',
+      name: 'Other Instruments',
+      component: () => import('../views/OtherView.vue'),
     },
   ],
 })
